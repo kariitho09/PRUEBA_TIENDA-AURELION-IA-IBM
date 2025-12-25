@@ -1,0 +1,2 @@
+# PRUEBA_TIENDA-AURELION-IA-IBM
+curso de guayer+IBM
