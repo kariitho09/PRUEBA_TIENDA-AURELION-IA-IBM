@@ -1,0 +1,6 @@
+media_precio = df['precio_unitario'].mean()
+media_cantidad = df['cantidad'].mean()
+media_importe = df['importe'].mean()
+print(f"Media precio_unitario: {media_precio}")
+print(f"Media cantidad: {media_cantidad}")
+print(f"Media importe: {media_importe}")

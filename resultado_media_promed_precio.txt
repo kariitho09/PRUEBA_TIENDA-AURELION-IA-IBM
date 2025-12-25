@@ -1,0 +1,4 @@
+Media (Promedio):
+- Precio Unitario: 170.0
+- Cantidad: 2.1
+- Importe: 360.0

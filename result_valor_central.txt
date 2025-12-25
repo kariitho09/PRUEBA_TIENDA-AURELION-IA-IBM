@@ -1,0 +1,4 @@
+Mediana (Valor Central):
+- Precio Unitario: 150.0
+- Cantidad: 2.0
+- Importe: 275.0

@@ -1,0 +1,4 @@
+Moda (Valor Más Frecuente):
+- Precio Unitario: [100, 150]
+- Cantidad: [2]
+- Importe: [600]

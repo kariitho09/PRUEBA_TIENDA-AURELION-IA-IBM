@@ -1,0 +1,5 @@
+proyecto_tienda/
+├── textos.py          # Módulo con textos de documentación
+├── main.py            # Código principal del menú asincrónico
+├── tests.py           # Tests unitarios para el router
+└── (diagrama de flujo en carpeta, e.g., diagrama.png o .drawio)

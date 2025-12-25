@@ -1,0 +1,16 @@
+Inicio
+Cargar textos/plantillas de documentación en un diccionario
+Mientras True:
+    Mostrar menú:
+        1. Tema, problema y solución
+        2. Dataset de referencia
+        3. Estructura por tabla (tipo y escala)
+        4. Escalas de medición
+        5. Sugerencias y mejoras con Copilot
+        6. Salir
+    Leer opción
+    Si opción == 1..5:
+        imprimir texto asociado
+    Si opción == 6:
+        romper bucle
+Fin

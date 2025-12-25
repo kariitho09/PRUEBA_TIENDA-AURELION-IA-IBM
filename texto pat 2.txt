@@ -1,0 +1,5 @@
+    """
+},
+4: {
+    "titulo": "4. Escalas de medición: Descripción y ejemplos",
+    "contenido": """
