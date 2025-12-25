@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-11-30T21:39:22.641403",
+  "dataset_info": {
+    "total_products": 10,
+    "total_sales": 1000,
+    "training_samples": 800,
+    "test_samples": 200
+  },
+  "regression_metrics": {
+    "mse": 482726.542401002,
+    "rmse": 694.7852491245061,
+    "mae": 389.4970808858468,
+    "r2_score": 0.7296407782911185
+  },
+  "classification_metrics": {
+    "accuracy": 0.995,
+    "confusion_matrix": [
+      [
+        61,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        48,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        40,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        11
+      ]
+    ]
+  },
+  "business_insights": {
+    "top_selling_category": "Electrónicos",
+    "average_order_value": 930.8987794398022,
+    "total_revenue": 930898.7794398022,
+    "best_rated_products": [
+      {
+        "name": "Laptop Gaming Elite",
+        "rating": 4.8
+      },
+      {
+        "name": "Aspiradora Robot",
+        "rating": 4.7
+      },
+      {
+        "name": "Zapatillas Running",
+        "rating": 4.6
+      }
+    ]
+  }
+}
