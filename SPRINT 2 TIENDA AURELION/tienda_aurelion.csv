@@ -1,0 +1,7 @@
+table,type,id,name,price,category,client_id,age,gender,sale_id,quantity,total_spent,date
+products,string,1,Laptop,800,Electronics,,
+products,string,2,Shirt,20,Clothing,,
+clients,integer,,John Doe,,Male,101,28,Male,,
+clients,integer,,Jane Smith,,Female,102,42,Female,,
+sales,float,,,,,101,,S001,3,60,2023-01-15
+sales,float,,,,,102,,S002,1,800,2023-01-16
