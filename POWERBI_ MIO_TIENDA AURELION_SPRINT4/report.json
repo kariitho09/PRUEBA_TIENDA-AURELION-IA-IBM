@@ -1,0 +1,50 @@
+{
+  "version": "4.0",
+  "pages": [
+    {
+      "name": "Dashboard Principal",
+      "visuals": [
+        {
+          "type": "card",
+          "title": "Población Total",
+          "measure": "SUM(Provincias[Poblacion])"
+        },
+        {
+          "type": "map",
+          "title": "Mapa de Argentina",
+          "location": "Provincias[Provincia]",
+          "values": "SUM(Ventas[Ventas])"
+        },
+        {
+          "type": "lineChart",
+          "title": "Evolución Mensual",
+          "axis": "Ventas[Mes]",
+          "values": "SUM(Ventas[Ventas])"
+        },
+        {
+          "type": "barChart",
+          "title": "Top Provincias",
+          "axis": "Provincias[Provincia]",
+          "values": "SUM(Provincias[Poblacion])"
+        }
+      ]
+    },
+    {
+      "name": "Análisis de Clientes",
+      "visuals": [
+        {
+          "type": "scatterChart",
+          "title": "NPS vs Abandono",
+          "x": "Clientes[NPS]",
+          "y": "Clientes[Tasa_Abandono]",
+          "size": "Clientes[Total_Clientes]"
+        },
+        {
+          "type": "gauge",
+          "title": "NPS Promedio",
+          "value": "AVERAGE(Clientes[NPS])"
+        }
+      ]
+    }
+  ]
+}

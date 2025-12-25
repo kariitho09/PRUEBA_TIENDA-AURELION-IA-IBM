@@ -1,0 +1,24 @@
+Provincia,Total_Clientes,Clientes_Premium,Clientes_Regular,Clientes_Ocasional,Tasa_Abandono,NPS,Indice_Retencion,Region
+Buenos Aires,139085,20862,48679,69544,15.7,25.0,75.3,Centro
+Córdoba,24645,3696,8625,12324,21.8,23.6,79.8,Centro
+Santa Fe,62649,9397,21927,31325,15.2,60.7,79.2,Centro
+Mendoza,13839,2075,4843,6921,22.0,51.4,88.2,Cuyo
+Tucumán,27754,4163,9713,13878,23.0,34.1,77.7,Norte
+Salta,23435,3515,8202,11718,23.1,69.5,81.2,Norte
+Entre Ríos,15083,2262,5279,7542,22.8,37.0,89.0,Centro
+Misiones,22861,3429,8001,11431,19.3,57.5,86.3,NEA
+Corrientes,7939,1190,2778,3971,24.0,45.3,87.4,NEA
+Chaco,11070,1660,3874,5536,24.0,39.5,75.2,Norte
+Santiago del Estero,19712,2956,6899,9857,15.9,36.0,89.3,Norte
+San Juan,15847,2377,5546,7924,20.7,51.6,81.7,Cuyo
+Jujuy,7627,1144,2669,3814,18.3,53.6,86.3,Norte
+Río Negro,12668,1900,4433,6335,22.9,24.6,82.4,Patagonia
+Neuquén,4167,625,1458,2084,20.5,42.1,88.3,Patagonia
+Formosa,6234,935,2181,3118,16.2,27.1,86.4,Norte
+Chubut,8458,1268,2960,4230,16.0,24.2,85.5,Patagonia
+San Luis,3301,495,1155,1651,23.2,55.3,76.2,Centro
+Catamarca,2694,404,942,1348,24.9,38.7,80.6,Norte
+La Rioja,6599,989,2309,3301,24.5,69.3,86.3,Norte
+La Pampa,3851,577,1347,1927,15.8,58.9,83.4,Centro
+Santa Cruz,3832,574,1341,1917,24.1,25.6,82.4,Patagonia
+Tierra del Fuego,960,144,336,480,19.7,22.8,76.8,Patagonia

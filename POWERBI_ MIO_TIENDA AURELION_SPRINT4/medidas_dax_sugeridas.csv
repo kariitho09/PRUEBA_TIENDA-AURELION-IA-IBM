@@ -1,0 +1,11 @@
+Categoria,Nombre_Medida,Formula_DAX
+Ventas,Total Ventas,SUM(ventas_mensuales[Ventas])
+Ventas,Ventas por Provincia,"CALCULATE(SUM(ventas_mensuales[Ventas]), VALUES(ventas_mensuales[Provincia]))"
+Ventas,Crecimiento Ventas,"DIVIDE([Total Ventas], CALCULATE([Total Ventas], SAMEPERIODLASTYEAR(calendario_2024[Fecha])) - 1)"
+Clientes,Total Clientes,SUM(clientes_provincias[Total_Clientes])
+Clientes,Clientes Activos,SUM(clientes_provincias[Total_Clientes]) * (1 - AVERAGE(clientes_provincias[Tasa_Abandono])/100)
+Clientes,Tasa Abandono,AVERAGE(clientes_provincias[Tasa_Abandono])
+Retención,Índice Retención,AVERAGE(clientes_provincias[Indice_Retencion])
+Retención,NPS Promedio,AVERAGE(clientes_provincias[NPS])
+Proyecciones,Proyección Ventas,"FORECAST.LINEAR(SUM(ventas_mensuales[Ventas]), calendario_2024[Fecha], ventas_mensuales[Ventas])"
+Proyecciones,Tendencia Mensual,"VAR CurrentMonth = MAX(ventas_mensuales[Mes_num]) VAR PreviousMonth = CurrentMonth - 1 RETURN DIVIDE([Total Ventas] - CALCULATE([Total Ventas], ventas_mensuales[Mes_num] = PreviousMonth), CALCULATE([Total Ventas], ventas_mensuales[Mes_num] = PreviousMonth))"

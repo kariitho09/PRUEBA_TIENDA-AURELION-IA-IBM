@@ -1,0 +1,33 @@
+
+# DOCUMENTACIÓN POWER BI - ANÁLISIS PROVINCIAS ARGENTINA
+
+## Archivos incluidos:
+1. provincias_argentina.csv - Datos principales de las 23 provincias
+2. ventas_mensuales.csv - Ventas mensuales por provincia (2024)
+3. clientes_provincias.csv - Datos de clientes por provincia
+4. calendario_2024.csv - Tabla de calendario para análisis temporal
+5. resumen_regional.csv - Resumen agregado por región
+6. medidas_dax_sugeridas.csv - Fórmulas DAX recomendadas
+
+## Relaciones sugeridas:
+- provincias_argentina[Provincia] -> ventas_mensuales[Provincia]
+- provincias_argentina[Provincia] -> clientes_provincias[Provincia]
+- ventas_mensuales[Fecha] -> calendario_2024[Fecha]
+
+## Métricas clave:
+- Población total: 42,770,578 habitantes
+- Ventas totales 2024: $32,782
+- Total clientes: 444,310
+- Tasa abandono promedio: 20.6%
+- NPS promedio: 42.3
+- Índice retención promedio: 82.8%
+
+## Visualizaciones recomendadas:
+1. Mapa de Argentina con ventas por provincia
+2. Gráfico de líneas - Evolución mensual de ventas
+3. Gráfico de barras - Top provincias por población/PIB
+4. Scatter plot - NPS vs Tasa de Abandono
+5. Gráfico de torta - Distribución por región
+6. KPI cards - Métricas principales
+7. Tabla - Ranking de provincias
+8. Gráfico de columnas apiladas - Clientes por categoría

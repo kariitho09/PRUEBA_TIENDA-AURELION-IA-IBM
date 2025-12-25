@@ -1,0 +1,96 @@
+{
+  "name": "Argentina_Analysis",
+  "tables": [
+    {
+      "name": "Provincias",
+      "columns": [
+        {
+          "name": "Provincia",
+          "dataType": "string"
+        },
+        {
+          "name": "Poblacion",
+          "dataType": "int64"
+        },
+        {
+          "name": "PIB_per_capita",
+          "dataType": "double"
+        },
+        {
+          "name": "PIB_total",
+          "dataType": "double"
+        },
+        {
+          "name": "Region",
+          "dataType": "string"
+        }
+      ]
+    },
+    {
+      "name": "Ventas",
+      "columns": [
+        {
+          "name": "Provincia",
+          "dataType": "string"
+        },
+        {
+          "name": "Mes",
+          "dataType": "string"
+        },
+        {
+          "name": "Fecha",
+          "dataType": "dateTime"
+        },
+        {
+          "name": "Ventas",
+          "dataType": "double"
+        },
+        {
+          "name": "Trimestre",
+          "dataType": "string"
+        }
+      ]
+    },
+    {
+      "name": "Clientes",
+      "columns": [
+        {
+          "name": "Provincia",
+          "dataType": "string"
+        },
+        {
+          "name": "Total_Clientes",
+          "dataType": "int64"
+        },
+        {
+          "name": "Tasa_Abandono",
+          "dataType": "double"
+        },
+        {
+          "name": "NPS",
+          "dataType": "double"
+        },
+        {
+          "name": "Indice_Retencion",
+          "dataType": "double"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "name": "Provincias_Ventas",
+      "fromTable": "Provincias",
+      "fromColumn": "Provincia",
+      "toTable": "Ventas",
+      "toColumn": "Provincia"
+    },
+    {
+      "name": "Provincias_Clientes",
+      "fromTable": "Provincias",
+      "fromColumn": "Provincia",
+      "toTable": "Clientes",
+      "toColumn": "Provincia"
+    }
+  ]
+}
